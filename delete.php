@@ -1,6 +1,6 @@
 <?php
 // delete.php
-
+ini_set('session.gc_maxlifetime', '0');
 session_start(); // For CSRF protection (optional but recommended)
 
 // Get ID from POST

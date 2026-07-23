@@ -1,6 +1,6 @@
 <?php
 // register.php
-
+    ini_set('session.gc_maxlifetime', '0');
     session_start();
 
     if (!isset($_SESSION['user_id'])) {
